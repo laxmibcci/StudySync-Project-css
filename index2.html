@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style2.css">
 </head>
+
 <body>
     <div class="header">
 
-        <header class="header-content" > 
+        <header class="header-content">
 
-            <a href="#logo" class="logo"> 
+            <a href="#logo" class="logo">
                 <!-- img -->
-                <svg class="logo.icon"  xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" >
+                <svg class="logo.icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
                     <style>
-                      svg {
-                        fill: #6366f1
-                      }
+                        svg {
+                            fill: #6366f1
+                        }
                     </style>
                     <path
-                      d="M368.4 18.3L312.7 74.1 437.9 199.3l55.7-55.7c21.9-21.9 21.9-57.3 0-79.2L447.6 18.3c-21.9-21.9-57.3-21.9-79.2 0zM288 94.6l-9.2 2.8L134.7 140.6c-19.9 6-35.7 21.2-42.3 41L3.8 445.8c-3.8 11.3-1 23.9 7.3 32.4L164.7 324.7c-3-6.3-4.7-13.3-4.7-20.7c0-26.5 21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48c-7.4 0-14.4-1.7-20.7-4.7L33.7 500.9c8.6 8.3 21.1 11.2 32.4 7.3l264.3-88.6c19.7-6.6 35-22.4 41-42.3l43.2-144.1 2.8-9.2L288 94.6z" />
-                  </svg>
-                  <!-- img -->
+                        d="M368.4 18.3L312.7 74.1 437.9 199.3l55.7-55.7c21.9-21.9 21.9-57.3 0-79.2L447.6 18.3c-21.9-21.9-57.3-21.9-79.2 0zM288 94.6l-9.2 2.8L134.7 140.6c-19.9 6-35.7 21.2-42.3 41L3.8 445.8c-3.8 11.3-1 23.9 7.3 32.4L164.7 324.7c-3-6.3-4.7-13.3-4.7-20.7c0-26.5 21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48c-7.4 0-14.4-1.7-20.7-4.7L33.7 500.9c8.6 8.3 21.1 11.2 32.4 7.3l264.3-88.6c19.7-6.6 35-22.4 41-42.3l43.2-144.1 2.8-9.2L288 94.6z" />
+                </svg>
+                <!-- img -->
 
-                  <!-- <img style="color: blue;" src="data:image/png;base64,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" alt="logo wrong"> -->
+                <!-- <img style="color: blue;" src="data:image/png;base64,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" alt="logo wrong"> -->
                 <span class="logo-text">StudySync</span>
             </a>
-  
+
             <nav class="nav">
-                <a href="#home" class="nav-link">Home</a> 
+                <a href="#home" class="nav-link">Home</a>
                 <a href="#features" class="nav-link">Features</a>
                 <a href="#pricing" class="nav-link">Pricing</a>
                 <a href="#blog" class="nav-link">Blog</a>
@@ -37,48 +39,53 @@
 
             </nav>
 
-                    <a href="#contact" class="contact-button">
-                        Contact Us
-                    </a>
+            <a href="#contact" class="contact-button">
+                Contact Us
+            </a>
 
-                    <button class="menu-button"> 
-                    <!-- img      -->
-                        <svg type="button" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 20 20" fill="currentColor" alt="MenuButton" class="menu-icon" > 
-                            <path fill-rule="evenodd"
-                              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                              clip-rule="evenodd"  />
-                          </svg>
-                        <!-- img -->
-                    </button>
+            <button class="menu-button">
+                <!-- img      -->
+                <svg type="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                    alt="MenuButton" class="menu-icon">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd" />
+                </svg>
+                <!-- img -->
+            </button>
 
         </header>
 
     </div>
 
-<div class="content">
-<section class="main-section">
+    <div class="content">
+        <section class="main-section">
 
 
-    <div class="content-left">
-        <p class="section-lable"> Very Proud to introduce </p>
-        <h1 class="section-title">Seamless Learning for Brighter Futures</h1>
-        <p class="section-description">our innovative platform offers an effortless and seamless approach to learning, empowering students of all ages to achieve 
-             brighter futures. Join us on a transformative journey to simplify education and unlock your full potential. </p>
-       
-       
-             <div class="button-group">
-                <a href="#start" class="start-button">Start Now </a>
-            <a href="#tour" class="tour-button">take Tour</a>
-        </div>
+            <div class="content-left">
+                <p class="section-lable"> Very Proud to Introduce </p>
+                <h1 class="section-title">Seamless Learning for Brighter Futures</h1>
+                <p class="section-description">our innovative platform offers an effortless and seamless approach to
+                    learning, empowering students of all ages to achieve
+                    brighter futures. Join us on a transformative journey to simplify education and unlock your full
+                    potential. </p>
+
+
+                <div class="button-group">
+                    <a href="#start" class="start-button">Start Now </a>
+                    <a href="#tour" class="tour-button">take Tour</a>
+                </div>
+            </div>
+
+
+            <div class="content-right">
+                <img src="https://media.istockphoto.com/id/1155516052/photo/marble-colorful-neon-wave-pattern-prism-glitch-effect-abstract-background-dark-purple-blue.jpg?s=612x612&w=0&k=20&c=XSndCJ22AnUB2GJNNGk5Ee0WB1LLPxWEjr0z6PKNRqc="
+                    alt="imgcond" class="section-image">
+            </div>
+        </section>
+
     </div>
-
-
-    <div class="content-right">
-
-    </div>
-</section>
-
-</div>
 
 </body>
+
 </html>
